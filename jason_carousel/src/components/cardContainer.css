@@ -1,0 +1,27 @@
+
+
+.arrow-container {
+  padding: 1em;
+}
+
+.arrow{
+  height: 1.5 em;
+  width: 1.5 em;
+
+  border-top: 0.5em solid #b1436e;
+  border-right: 0.5em solid #B1436E;
+
+  cursor: pointer;
+}
+
+.arrow.left{
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg)
+}
+
+.arrow.right{
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
